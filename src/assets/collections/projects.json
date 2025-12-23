@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Proyecto de Investigación DASH",
+    "description": "Análisis estadístico en R para validación psicométrica del instrumento DASH - 2do lugar en 1er Congreso Internacional de Simulación Interdisciplinaria.",
+    "urlImg": "/projects/dash-project.webp",
+    "link": "#"
+  },
+  {
+    "name": "Dashboards de KPIs en Power BI",
+    "description": "Dashboards interactivos para seguimiento de KPIs académicos y operacionales en el Centro de Simulación Clínica UPCH.",
+    "urlImg": "/projects/powerbi-dashboard.webp",
+    "link": "#"
+  },
+  {
+    "name": "Sistema de Automatización ETL",
+    "description": "Procesos ETL automatizados usando Google Sheets y JavaScript para integración y limpieza de datos.",
+    "urlImg": "/projects/etl-automation.webp",
+    "link": "#"
+  },
+  {
+    "name": "Plataforma Académica Low-Code",
+    "description": "Soluciones web y móviles para gestión de actividades académicas y de simulación clínica interna.",
+    "urlImg": "/projects/lowcode-platform.webp",
+    "link": "#"
+  }
+]

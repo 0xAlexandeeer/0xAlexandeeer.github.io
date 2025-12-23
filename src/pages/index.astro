@@ -1,0 +1,187 @@
+---
+import Card from "../components/Card.astro";
+import Layout from "../layouts/Layout.astro";
+import TimelineItem from "../components/TimelineItem.astro";
+import Project from "../components/Project.astro";
+import CardService from "../components/CardService.astro";
+import EXPERIENCES from "../assets/collections/experiences.json";
+import PROJECTS from "../assets/collections/projects.json";
+import SERVICES from "../assets/collections/services.json";
+---
+
+<Layout>
+  <section id="home" class="flex flex-col">
+    <article class="text-gray-950 dark:text-white text-pretty mx-auto">
+      <h1 class="text-4xl md:text-6xl font-bold max-w-screen-sm">
+        Bienvenido 👋, Soy Bryan Alexander Peñaloza
+      </h1>
+      <div class="flex flex-col gap-6 mt-8">
+        <h2 class="font-bold text-xl sm:text-2xl">
+          Disponible para ayudarte con:
+        </h2>
+        <div class="flex flex-col sm:flex-row gap-4 overflow-hidden relative">
+          <Card className="card">
+            <div
+              class="rounded-full p-4 grid place-content-center bg-blue-50 text-blue-500 dark:bg-blue-950/30 dark:text-blue-700 w-fit"
+            >
+              <svg
+                class="size-8"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                ><path
+                  d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z"
+                ></path></svg
+              >
+            </div>
+            <h2 class="font-semibold text-lg sm:text-xl md:text-2xl">
+              Análisis y Visualización de Datos
+            </h2>
+            <p class="text-gray-600 text-sm sm:text-base dark:text-gray-400">
+              Experto en analizar y visualizar datos para impulsar decisiones de negocio utilizando
+              <span class="text-blue-700 dark:text-blue-500"
+                >Python, R, SQL, Power BI y Looker Studio</span
+              >. Transformo datos en bruto en insights accionables con reportes claros y eficientes.
+            </p>
+          </Card>
+          <Card className="card">
+            <div
+              class="rounded-full p-4 grid place-content-center bg-yellow-50 text-yellow-500 dark:bg-yellow-950/30 dark:text-yellow-700 w-fit"
+            >
+              <svg
+                class="size-8"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                ><path
+                  d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z"
+                ></path></svg
+              >
+            </div>
+            <h2 class="font-semibold text-lg sm:text-xl md:text-2xl">
+              ETL e Inteligencia de Negocios
+            </h2>
+            <p class="text-gray-600 text-sm sm:text-base dark:text-gray-400">
+              Especializado en diseñar procesos ETL y soluciones de BI con
+              <span class="text-yellow-700 dark:text-yellow-500"
+                >Google Sheets, JavaScript y plataformas Cloud</span
+              >. Automatizo flujos de datos y creo dashboards interactivos para seguimiento de KPIs.
+            </p>
+          </Card>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section id="about" class="flex flex-col">
+    <h2
+      class="text-2xl md:text-4xl font-bold text-gray-950 dark:text-white mb-8"
+    >
+      Sobre Mí
+    </h2>
+    <article class="flex flex-col md:flex-row gap-4 p-4">
+      <Card className="text-gray-600 dark:text-gray-400 h-fit">
+        <div class="flex flex-col gap-2 text-sm sm:text-base">
+          <h3
+            class="text-lg sm:text-xl font-semibold text-gray-950 dark:text-white"
+          >
+            Biografía Breve 🧬
+          </h3>
+          <p>
+            Soy un profesional en formación en Análisis de Datos con experiencia práctica en análisis, automatización y visualización de datos en entornos institucionales. Manejo procesos ETL, dashboards de Business Intelligence y análisis estadístico para la toma de decisiones basada en datos.
+          </p>
+          <p>
+            Actualmente trabajo en el Centro de Simulación Clínica de la Universidad Peruana Cayetano Heredia, desarrollando soluciones de BI y automatizando reportes de KPIs utilizando Power BI, Looker Studio y tecnologías cloud.
+          </p>
+          <p>
+            Apasionado por el aprendizaje continuo, cuento con certificaciones en Google Cybersecurity, AWS Cloud Foundations y Business Intelligence, buscando siempre expandir mis habilidades técnicas y analíticas.
+          </p>
+        </div>
+        <div class="flex flex-col gap-2">
+          <h3
+            class="text-lg sm:text-xl font-semibold text-gray-950 dark:text-white"
+          >
+            ¿Quieres saber un poco más?
+          </h3>
+          <a
+            href="/docs/cv.pdf"
+            role="button"
+            aria-label="Descargar CV"
+            download
+            class="px-4 py-2 rounded-md bg-blue-600 hover:bg-blue-700 dark:hover:bg-blue-800 dark:bg-blue-700 focus:ring-4 focus:outline-hidden focus:ring-blue-200 dark:focus:ring-blue-950 text-white w-fit font-semibold"
+            >Descargar CV</a
+          >
+        </div>
+      </Card>
+      <Card className="p-8">
+        <ol class="relative border-s border-gray-300 dark:border-neutral-800">
+          {
+            EXPERIENCES.map((experience) => (
+              <TimelineItem
+                title={experience.company}
+                description={experience.description}
+                date={experience.dates}
+              >
+                <div
+                  slot="icon"
+                  class="size-full p-1"
+                  set:html={experience.svgIcon}
+                />
+              </TimelineItem>
+            ))
+          }
+        </ol>
+      </Card>
+    </article>
+  </section>
+  <section id="projects" class="flex flex-col">
+    <h2
+      class="text-2xl md:text-4xl font-bold text-gray-950 dark:text-white text-end ms-auto mb-8"
+    >
+      Últimos Proyectos
+    </h2>
+    <div class="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {
+        PROJECTS.filter((__, i) => i < 3).map((project) => (
+          <Project project={project} />
+        ))
+      }
+    </div>
+    <div class="mt-6 flex justify-center">
+      <a
+        role="button"
+        href="/projects"
+        class="font-semibold transition-colors px-4 py-2 text-base rounded-3xl bg-blue-600 hover:bg-transparent hover:border hover:border-blue-600 hover:text-blue-600 dark:bg-blue-800 text-white dark:hover:bg-transparent dark:hover:border-blue-800 dark:hover:text-blue-800 duration-300"
+        >Ver Todos los Proyectos</a
+      >
+    </div>
+  </section>
+  <section id="services" class="flex flex-col overflow-hidden">
+    <h2
+      class="text-2xl md:text-4xl font-bold text-gray-950 dark:text-white mb-8"
+    >
+      Servicios
+    </h2>
+    <article class="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {SERVICES.map((service) => <CardService service={service} />)}
+    </article>
+  </section>
+</Layout>
+
+<script>
+  import { animate, inView, stagger } from "motion";
+
+  window.addEventListener("DOMContentLoaded", () => {
+    inView("#services", () => {
+      animate(
+        ".card-service",
+        {
+          transform: ["translateY(100%)", "translateY(0)"],
+        },
+        {
+          delay: stagger(0.2),
+          duration: 0.6,
+        }
+      );
+    });
+  });
+</script>

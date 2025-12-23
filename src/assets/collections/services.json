@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Análisis y Reportes de Datos",
+    "price": 150,
+    "description": "Perfecto para empresas que buscan comprender sus datos y tomar decisiones informadas.",
+    "benefits": [
+      "Análisis exploratorio de datos",
+      "Análisis estadístico e insights",
+      "Visualizaciones personalizadas",
+      "Reporte ejecutivo resumido",
+      "1 consulta de seguimiento incluida"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Dashboard de Inteligencia de Negocios",
+    "price": 350,
+    "description": "Ideal para empresas que desean monitorear KPIs y métricas en tiempo real.",
+    "benefits": [
+      "Diseño e implementación de proceso ETL",
+      "Dashboard interactivo en Power BI o Looker Studio",
+      "Seguimiento y monitoreo de KPIs",
+      "Generación de reportes automatizados",
+      "Sesión de capacitación para uso del dashboard",
+      "Soporte continuo por 1 mes"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Solución Completa de BI",
+    "price": 550,
+    "description": "Perfecto para organizaciones que requieren infraestructura completa de análisis de datos.",
+    "benefits": [
+      "Desarrollo completo de pipeline ETL",
+      "Múltiples dashboards interactivos",
+      "Diseño de data warehouse",
+      "Análisis avanzado y modelado predictivo",
+      "Documentación exhaustiva",
+      "Capacitación para tu equipo",
+      "3 meses de soporte y mantenimiento continuo"
+    ]
+  }
+]
