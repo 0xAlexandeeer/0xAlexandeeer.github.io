@@ -1,4 +1,4 @@
-# Portafolio de Delta
+# Portafolio de Peñaloza
 
 Sitio personal estático en español, publicado con GitHub Pages.
 
@@ -27,7 +27,7 @@ HTML semántico, navegación por anclas, enlace para saltar al contenido, foco v
 
 ## Actualización de identidad y LinkedIn
 
-El nombre visible es Delta por petición del propietario. Los enlaces a GitHub, LinkedIn y Credly conservan sus destinos reales.
+El nombre visible es Peñaloza por petición del propietario. Los enlaces a GitHub, LinkedIn y Credly conservan sus destinos reales.
 
 El 22 de noviembre de 2026 se contrastó la versión pública indexada de https://pe.linkedin.com/in/bapenaloza (índice consultado con antigüedad indicada de un mes). Se incorporó la Universidad Peruana Cayetano Heredia y el proyecto DASH de abril–agosto de 2025, con participación como analista y uso de R. El extracto solo mostró el comienzo y la experiencia omitió cargos y fechas; no se añadieron afirmaciones de empleo actual, funciones ni resultados del estudio. La lectura directa de LinkedIn devolvió HTTP 999. Queda pendiente el extracto completo y la experiencia detallada actualizados que facilite el propietario.
 
@@ -38,3 +38,12 @@ El propietario compartió una captura autenticada de LinkedIn. Se incorporaron l
 ## Contraste final con texto completo proporcionado
 
 El 22 de noviembre de 2026 el propietario facilitó el texto completo copiado de su perfil. Se actualizó el extracto (bachiller, datos, BI, IA, automatización y visión de negocio); se añadió la experiencia de ilender desde abril de 2026 y se ampliaron las funciones de los dos puestos UPCH. Se añadió Google Cybersecurity (marzo de 2025), además de ISC2 CC (diciembre de 2025). Solo se incorporaron estas dos certificaciones visibles. La mención de bachiller procede del extracto, sin atribuir un título adicional a la entrada de educación. Se incorporó el segundo puesto del proyecto grupal DASH con atribución a la publicación de LinkedIn, sin presentar los hallazgos como resultados científicos verificados independientemente. Se omitieron IDs, analíticas, conteos y promociones. No se publicó el archivo copiado de LinkedIn ni su contenido privado.
+
+## Rediseño y contraste con PDF del perfil
+
+Identidad pública definitiva: Peñaloza, con z. Diseño inspirado en la referencia aportada: carbón, ondas SVG originales, grises pizarra, coral y navegación de vidrio ahumado. Se mantienen la cuenta y los enlaces originales.
+
+El PDF facilitado confirma extracto, experiencia y formación. Añade cuatro nombres de certificaciones: Excel Skills for Business: Essentials, Business Intelligence Foundation, AWS Academy Graduate - AWS Academy Cloud Foundations y Scrum Master Professional Certificate. Se incluyen sin inventar fechas ni vigencia. El correo del PDF no se incorpora; contacto por LinkedIn y GitHub. Las contribuciones extensas y las credenciales adicionales se pueden desplegar para mantener una lectura inicial breve.
+
+Contenido: index.html. Diseño responsive: styles.css. Fondo: assets/waves.svg. Imagen social: assets/social-penaloza.png (nombre técnico sin tilde; identidad visible Peñaloza). Publicación: raíz de main en GitHub Pages.
+
