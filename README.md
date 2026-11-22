@@ -1,4 +1,4 @@
-# Portafolio de Bryan Alexander Peñaloza Huamán
+# Portafolio de Delta
 
 Sitio personal estático en español, publicado con GitHub Pages.
 
@@ -24,3 +24,9 @@ XaiTesis se presenta como investigación en desarrollo según el README público
 ## Accesibilidad y diseño
 
 HTML semántico, navegación por anclas, enlace para saltar al contenido, foco visible, estilos responsive y respeto a `prefers-reduced-motion`. Las fuentes de Google Fonts tienen fallback local; el sitio no necesita JavaScript.
+
+## Actualización de identidad y LinkedIn
+
+El nombre visible es Delta por petición del propietario. Los enlaces a GitHub, LinkedIn y Credly conservan sus destinos reales.
+
+El 22 de noviembre de 2026 se contrastó la versión pública indexada de https://pe.linkedin.com/in/bapenaloza (índice consultado con antigüedad indicada de un mes). Se incorporó la Universidad Peruana Cayetano Heredia y el proyecto DASH de abril–agosto de 2025, con participación como analista y uso de R. El extracto solo mostró el comienzo y la experiencia omitió cargos y fechas; no se añadieron afirmaciones de empleo actual, funciones ni resultados del estudio. La lectura directa de LinkedIn devolvió HTTP 999. Queda pendiente el extracto completo y la experiencia detallada actualizados que facilite el propietario.

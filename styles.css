@@ -3,3 +3,4 @@
 /* Readable metadata at every viewport size. */
 .eyebrow,.project-copy .eyebrow,.repository-list .eyebrow,.research-label,.stack span,.visual-label,.mini-visual>small{font-size:.75rem}.system-top,.system-bottom,.core span,.node small,.flow span{font-size:.75rem;letter-spacing:.06em}.flow div{padding:15px 10px}.flow span{font-size:.625rem}.system-bottom{font-size:.625rem}.exchange-art i{font-size:.75rem}.brand-name{font-size:.875rem}.hero-foot,.tags{font-size:.875rem!important}
 @media(max-width:380px){.flow div{padding:12px 6px}.flow b{font-size:.875rem}.flow span{font-size:.5625rem}.system{padding:14px}.node-ai{right:-7px}.node b{font-size:.75rem}.node small{font-size:.625rem}.system-top{font-size:.625rem}}
+.applied .text-link{margin-top:18px;color:var(--cyan);font-size:.875rem}.brand{min-width:38px}
