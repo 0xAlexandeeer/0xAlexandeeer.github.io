@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://0xalexandeeer.github.io/sitemap.xml
